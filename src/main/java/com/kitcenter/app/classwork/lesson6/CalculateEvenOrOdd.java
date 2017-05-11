@@ -6,6 +6,8 @@ import java.util.Scanner;
  */
 public class CalculateEvenOrOdd {
     public static void calculate() {
+        System.out.println("Запустилась программа проверки деления с проверкой остатка");
+        System.out.println("Введите число");
         Scanner scanner = new Scanner(System.in);
         float result = scanner.nextFloat() % 2;
         if (result == 0) {
