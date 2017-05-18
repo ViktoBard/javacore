@@ -7,21 +7,32 @@ import com.kitcenter.app.homework.lesson6.HowToKnowHipotenusa;
 import java.util.Scanner;
 
 /**
- * Created by Viktor on 11.05.2017.
+ * Created by Viktor on 17.05.2017.
  */
-public class LittleProgramRunner {
-    public static void main(String[] args) {
-        System.out.println("Введите число 1, 2 или 3 для продолжения:");
+public class ClassChoosing {
+    public static void classChoosing() {
         Scanner scanner = new Scanner(System.in);
         float result1 = scanner.nextFloat();
+
+        while (true){
         if (result1 == 1) {
             HowToKnowHipotenusa.howToKnowHipotenusa();
+            System.out.println("Игарем снова?");
         } else if (result1 == 2) {
             CalculateEvenOrOdd.calculate();
+            System.out.println("Игарем снова?");
         } else if (result1 == 3) {
             DefineBiggerNumber.defineBiggerNumber();
+            System.out.println("Игарем снова?");
+        } else if (result1 == 0) {
+            System.out.println("Ну ладно, пока");
+            break;
         } else {
-            System.out.println("Запусти еще раз и введи числа 1, 2 или 3");
+            {
+                System.out.println("Не, такого класса еще нет, выбери существующий");
+            }
         }
     }
 }
+}
+

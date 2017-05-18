@@ -14,6 +14,6 @@ public class CalculateEvenOrOdd {
             System.out.println("Деление целого числа");
         } else {
             System.out.println("Деление не целого числа");
-        }
+        }return;
     }
 }

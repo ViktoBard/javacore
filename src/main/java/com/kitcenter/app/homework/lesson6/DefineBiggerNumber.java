@@ -18,6 +18,6 @@ public class DefineBiggerNumber {
             System.out.println("Второе число всё таки больше");
         } else {
             System.out.println("Так что ты хочешь узнать, числа же одинаковые");
-        }
+        }return;
     }
 }

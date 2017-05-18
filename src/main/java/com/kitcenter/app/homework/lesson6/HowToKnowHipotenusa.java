@@ -1,5 +1,7 @@
 package com.kitcenter.app.homework.lesson6;
 
+import com.kitcenter.runners.homework.lesson6.MainProgramRunner;
+
 import java.util.Scanner;
 
 /**
