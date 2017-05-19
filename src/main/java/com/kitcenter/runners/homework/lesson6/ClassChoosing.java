@@ -12,27 +12,31 @@ import java.util.Scanner;
 public class ClassChoosing {
     public static void classChoosing() {
         Scanner scanner = new Scanner(System.in);
-        float result1 = scanner.nextFloat();
-
-        while (true){
-        if (result1 == 1) {
-            HowToKnowHipotenusa.howToKnowHipotenusa();
-            System.out.println("Игарем снова?");
-        } else if (result1 == 2) {
-            CalculateEvenOrOdd.calculate();
-            System.out.println("Игарем снова?");
-        } else if (result1 == 3) {
-            DefineBiggerNumber.defineBiggerNumber();
-            System.out.println("Игарем снова?");
-        } else if (result1 == 0) {
-            System.out.println("Ну ладно, пока");
-            break;
-        } else {
-            {
+        String choose = scanner.nextLine();
+        switch (choose){
+            case "1":
+                HowToKnowHipotenusa.howToKnowHipotenusa();
+                ClassDisplaying.classDisplaying();
+                ClassChoosing.classChoosing();
+                break;
+            case "2":
+                CalculateEvenOrOdd.calculate();
+                ClassDisplaying.classDisplaying();
+                ClassChoosing.classChoosing();
+                break;
+            case "3":
+                DefineBiggerNumber.defineBiggerNumber();
+                ClassDisplaying.classDisplaying();
+                ClassChoosing.classChoosing();
+                break;
+            case "0":
+                System.out.println("Ну ладно, пока");
+                break;
+            default:
                 System.out.println("Не, такого класса еще нет, выбери существующий");
-            }
+                ClassDisplaying.classDisplaying();
+                ClassChoosing.classChoosing();
+                break;
         }
     }
 }
-}
-
