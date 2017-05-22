@@ -1,12 +1,7 @@
 package com.kitcenter.app.classwork.lesson5;
 import org.junit.*;
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
 import org.junit.runners.MethodSorters;
 
-import java.awt.datatransfer.DataFlavor;
-import java.util.Random;
 
 /**
  * Created by Viktor on 03.05.2017.

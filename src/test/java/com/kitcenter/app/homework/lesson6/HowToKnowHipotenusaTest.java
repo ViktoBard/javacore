@@ -1,0 +1,37 @@
+package com.kitcenter.app.homework.lesson6;
+
+import com.kitcenter.app.homework.lesson6.*;
+import com.kitcenter.runners.homework.lesson6.ClassChoosing;
+import org.junit.*;
+import org.junit.runners.MethodSorters;
+
+/**
+ * Created by user on 12.05.2017.
+ */
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+
+public class HowToKnowHipotenusaTest {
+}
+    @Test
+public void hipotenusaTest(){
+        DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
+        String inputString = defineBiggerNumberTest.
+        }
+        }
+
+
+//               System.out.println("Сейчас ты отнимешь " + numberOne + " от " + numberTwo);
+//                       int expResultSub = 30;
+//                       Calculator calculator = new Calculator();
+//                       int actualResult = calculator.substract(numberOne, numberTwo);
+//                       Assert.assertEquals(expResultSub, actualResult);
+//                       System.out.println("Результат = " + actualResult);
+//                       }
+
+//    @Test
+//    public int classChoosingTest() {
+//        ClassChoosing classChoosing = new ClassChoosing();
+//        int actualResult = classChoosing.
+//    }
+//}

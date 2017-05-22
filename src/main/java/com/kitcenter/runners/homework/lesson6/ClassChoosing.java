@@ -37,6 +37,6 @@ public class ClassChoosing {
                 ClassDisplaying.classDisplaying();
                 ClassChoosing.classChoosing();
                 break;
-        }
+        }return;
     }
 }
