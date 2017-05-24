@@ -12,11 +12,11 @@ import org.junit.runners.MethodSorters;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class HowToKnowHipotenusaTest {
-}
+//}
     @Test
 public void hipotenusaTest(){
         DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
-        String inputString = defineBiggerNumberTest.
+//        String inputString = defineBiggerNumberTest.
         }
         }
 
