@@ -25,9 +25,8 @@ public class ClassChoosing {
                 ClassChoosing.classChoosing();
                 break;
             case "3":
-                DefineBiggerNumber.defineBiggerNumber();
-                ClassDisplaying.classDisplaying();
-                ClassChoosing.classChoosing();
+                DefineBiggerNumber defineBiggerNumber = new DefineBiggerNumber();
+                defineBiggerNumber.defineBiggerNumber(UserInputData.)
                 break;
             case "0":
                 System.out.println("Ну ладно, пока");
