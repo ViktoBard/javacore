@@ -18,16 +18,8 @@ public void hipotenusaTest(){
         DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
 //        String inputString = defineBiggerNumberTest.
         }
-        }
+}
 
-
-//               System.out.println("Сейчас ты отнимешь " + numberOne + " от " + numberTwo);
-//                       int expResultSub = 30;
-//                       Calculator calculator = new Calculator();
-//                       int actualResult = calculator.substract(numberOne, numberTwo);
-//                       Assert.assertEquals(expResultSub, actualResult);
-//                       System.out.println("Результат = " + actualResult);
-//                       }
 
 //    @Test
 //    public int classChoosingTest() {

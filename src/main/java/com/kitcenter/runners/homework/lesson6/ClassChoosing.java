@@ -13,29 +13,32 @@ public class ClassChoosing {
     public static void classChoosing() {
         Scanner scanner = new Scanner(System.in);
         String choose = scanner.nextLine();
-        switch (choose){
+        switch (choose) {
             case "1":
                 HowToKnowHipotenusa.howToKnowHipotenusa();
-                ClassDisplaying.classDisplaying();
-                ClassChoosing.classChoosing();
+                menuRepeating();
                 break;
             case "2":
                 CalculateEvenOrOdd.calculate();
-                ClassDisplaying.classDisplaying();
-                ClassChoosing.classChoosing();
+                menuRepeating();
                 break;
             case "3":
-                DefineBiggerNumber defineBiggerNumber = new DefineBiggerNumber();
-                defineBiggerNumber.defineBiggerNumber(UserInputData.)
+
+//                DefineBiggerNumber.defineBiggerNumber(double numberOne, double numberTwo);
+                menuRepeating();
                 break;
             case "0":
                 System.out.println("Ну ладно, пока");
                 break;
             default:
                 System.out.println("Не, такого класса еще нет, выбери существующий");
-                ClassDisplaying.classDisplaying();
-                ClassChoosing.classChoosing();
+                menuRepeating();
                 break;
         }
+    }
+
+    public static void menuRepeating() {
+        ClassDisplaying.classDisplaying();
+        ClassChoosing.classChoosing();
     }
 }
