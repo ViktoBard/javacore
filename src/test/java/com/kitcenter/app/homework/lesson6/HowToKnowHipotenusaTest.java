@@ -13,12 +13,12 @@ import org.junit.runners.MethodSorters;
 
 public class HowToKnowHipotenusaTest {
 //}
-    @Test
-public void hipotenusaTest(){
-        DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
+//    @Test
+//public void hipotenusaTest(){
+//        DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
 //        String inputString = defineBiggerNumberTest.
         }
-}
+
 
 
 //    @Test

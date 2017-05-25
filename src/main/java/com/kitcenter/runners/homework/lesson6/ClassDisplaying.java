@@ -1,7 +1,7 @@
 package com.kitcenter.runners.homework.lesson6;
 
 import com.kitcenter.app.classwork.lesson6.CalculateEvenOrOdd;
-import com.kitcenter.app.homework.lesson6.DefineBiggerNumber;
+import com.kitcenter.app.homework.lesson6.DefineBiggerOrEqualNumber;
 import com.kitcenter.app.homework.lesson6.HowToKnowHipotenusa;
 
 /**
@@ -11,7 +11,7 @@ class ClassDisplaying {
     public static void classDisplaying (){
         String Hipotenusa = HowToKnowHipotenusa.class.toString();
         String Calculate = CalculateEvenOrOdd.class.toString();
-        String DefineNumber = DefineBiggerNumber.class.toString();
+        String DefineNumber = DefineBiggerOrEqualNumber.class.toString();
 
         System.out.println("1. " + Hipotenusa);
         System.out.println("2. " + Calculate);
