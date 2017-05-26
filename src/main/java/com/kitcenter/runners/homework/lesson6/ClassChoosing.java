@@ -33,7 +33,7 @@ public class ClassChoosing {
                 System.out.println("Запустилась программа проверки деления с проверкой остатка");
                 System.out.println("Введите число");
                 try {
-                    float result = scanner.nextFloat() % 2;
+                    float result = scanner.nextFloat();
                     CalculateEvenOrOdd calculate = new CalculateEvenOrOdd();
                     calculate.calculate(result);
                 } catch (InputMismatchException e) {

@@ -6,7 +6,8 @@ import java.util.Scanner;
  */
 public class CalculateEvenOrOdd {
     public void calculate(float result) {
-        if (result == 0) {
+        float number = result % 2;
+        if (number == 0) {
             System.out.println("Деление целого числа");
         } else {
             System.out.println("Деление не целого числа");

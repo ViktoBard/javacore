@@ -1,8 +1,7 @@
 package com.kitcenter.app.homework.lesson6;
 
-import com.kitcenter.app.homework.lesson6.*;
-import com.kitcenter.runners.homework.lesson6.ClassChoosing;
-import org.junit.*;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 /**
@@ -12,18 +11,16 @@ import org.junit.runners.MethodSorters;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class HowToKnowHipotenusaTest {
-//}
-//    @Test
-//public void hipotenusaTest(){
-//        DefineBiggerNumber defineBiggerNumberTest = new DefineBiggerNumber();
-//        String inputString = defineBiggerNumberTest.
-        }
 
+    @Test
+    public void hipotenusaPositiveTest() {
+        HowToKnowHipotenusa howToKnowHipotenusa = new HowToKnowHipotenusa();
+        howToKnowHipotenusa.howToKnowHipotenusa(4,4);
+    }
 
-
-//    @Test
-//    public int classChoosingTest() {
-//        ClassChoosing classChoosing = new ClassChoosing();
-//        int actualResult = classChoosing.
-//    }
-//}
+    @Test
+    public void hipotenusaNegativeTest() {
+        HowToKnowHipotenusa howToKnowHipotenusa = new HowToKnowHipotenusa();
+        howToKnowHipotenusa.howToKnowHipotenusa(-456615,-1561816861);
+    }
+}
