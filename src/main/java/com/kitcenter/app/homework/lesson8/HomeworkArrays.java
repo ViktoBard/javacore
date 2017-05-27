@@ -43,42 +43,62 @@ public class HomeworkArrays {
     }
 
     public void randomArray09() {
-        Random generator = new Random();
+        int eveNumber = 0;
         int[] even = new int[15];
-        int n;
         for (int i = 0; i < even.length; i++) {
-            even[i] = (int) (Math.random() * 9);
-//            n = generator.nextInt(9);
-//            even[i] = n;
+            Random generator = new Random();
+            even[i] = generator.nextInt(10);
             System.out.print(even[i] + " ");
+            if (even[i] > 0 & even[i] % 2 == 0) eveNumber++;
         }
-        System.out.println();
-        int j = 0;
+        System.out.println(" ");
+        System.out.println("Всего в массиве " + eveNumber + " четных");
+    }
+
+    public void randomArray0999() {
+        int maxIndex = 0;
+        int[] even = new int[15];
         for (int i = 0; i < even.length; i++) {
-            if (even[i] % 2 == 0) {
-                j++;
-            }
-            System.out.print("Array has: " + j + " even numbers");
-            System.out.println("\n");
-        }
-    }
-
-    public void randomArray() {
-        int[] mas = new int[15];
-        for (int i = 0; i < mas.length; i++) {
-            mas[i] = (int) (Math.random() * 9);
-            System.out.print(mas[i] + " ");
-        }
-        System.out.println();
-        int j = 0;
-        for (int i = 0; i < mas.length; i++) {
-            if (mas[i] % 2 == 0) {
-                j++;
+            Random generator = new Random();
+            even[i] = generator.nextInt(999);
+            System.out.print(even[i] + " ");
+            if (even[i] > maxIndex) {
+                maxIndex = even[i];
             }
         }
-        System.out.print("Array has: " + j + " even numbers");
-        System.out.println("\n");
+        System.out.println("");
+        System.out.println("Максимальное число в этом массиве " + maxIndex);
     }
 
-
+    public void twoDimensionalArray() {
+        int first = 8;
+        int second = 5;
+        int[][] even = new int[first][second];
+        for (int i = 0; i < first; i++) {
+            for (int k = 0; k <second; k++) {
+                even[i][k] = 10 + (int) (Math.random() * (99 - 10));
+            }
+        }
+        for (int i = 0; i < first; i++) {
+            for (int j = 0; j < second; j++)
+                System.out.print(even[i][j] + " ");
+            System.out.println();
+        }
+    }
 }
+
+//
+//        int m = 8, n = 5;
+//        int mas[][] = new int[m][n];
+//
+//        for (int i = 0; i < m; i++)
+//            for (int j = 0; j < n; j++) {
+//                mas[i][j] = 10 + (int) (Math.random() * (99 - 10));
+//            }
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++)
+//                System.out.print(mas[i][j] + " ");
+//            System.out.println();
+//        }
+//        System.out.println("\n");
+

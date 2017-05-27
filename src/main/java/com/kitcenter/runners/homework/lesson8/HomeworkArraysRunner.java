@@ -12,8 +12,10 @@ public class HomeworkArraysRunner {
 //        homeworkArrays.evenArrayColumn();
 //        homeworkArrays.oddArrayRow();
 //        homeworkArrays.oddArrayReversRow();
-        homeworkArrays.randomArray09();
-//        homeworkArrays.randomArray();
+//        homeworkArrays.randomArray09();
+//        homeworkArrays.randomArray0999();
+//        homeworkArrays.array();
+        homeworkArrays.twoDimensionalArray();
     }
 
 }
