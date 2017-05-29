@@ -80,25 +80,26 @@ public class HomeworkArrays {
             }
         }
         for (int i = 0; i < first; i++) {
-            for (int j = 0; j < second; j++)
-                System.out.print(even[i][j] + " ");
+            for (int k = 0; k < second; k++)
+                System.out.print(even[i][k] + " ");
             System.out.println();
         }
     }
+
+    public void twoDimensionalArray1999() {
+        int first = 8;
+        int second = 5;
+        int[][] even = new int[first][second];
+        for (int i = 0; i < first; i++) {
+            for (int k = 0; k <second; k++) {
+                even[i][k] = 1 + (int) (Math.random() * (999 - 1));
+            }
+        }
+        for (int i = 0; i < first; i++) {
+            for (int k = 0; k < second; k++)
+                System.out.print(even[i][k] + "\t\t");
+            System.out.println();
+        }
+    }
+
 }
-
-//
-//        int m = 8, n = 5;
-//        int mas[][] = new int[m][n];
-//
-//        for (int i = 0; i < m; i++)
-//            for (int j = 0; j < n; j++) {
-//                mas[i][j] = 10 + (int) (Math.random() * (99 - 10));
-//            }
-//        for (int i = 0; i < m; i++) {
-//            for (int j = 0; j < n; j++)
-//                System.out.print(mas[i][j] + " ");
-//            System.out.println();
-//        }
-//        System.out.println("\n");
-

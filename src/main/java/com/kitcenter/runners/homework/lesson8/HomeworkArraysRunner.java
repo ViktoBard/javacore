@@ -15,7 +15,8 @@ public class HomeworkArraysRunner {
 //        homeworkArrays.randomArray09();
 //        homeworkArrays.randomArray0999();
 //        homeworkArrays.array();
-        homeworkArrays.twoDimensionalArray();
+//        homeworkArrays.twoDimensionalArray();
+        homeworkArrays.twoDimensionalArray1999();
     }
 
 }
