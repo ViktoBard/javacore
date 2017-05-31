@@ -8,14 +8,13 @@ import com.kitcenter.app.homework.lesson8.HomeworkArrays;
 public class HomeworkArraysRunner {
     public static void main(String[] args) {
         HomeworkArrays homeworkArrays = new HomeworkArrays();
-//        homeworkArrays.evenArrayRow();
-//        homeworkArrays.evenArrayColumn();
-//        homeworkArrays.oddArrayRow();
-//        homeworkArrays.oddArrayReversRow();
-//        homeworkArrays.randomArray09();
-//        homeworkArrays.randomArray0999();
-//        homeworkArrays.array();
-//        homeworkArrays.twoDimensionalArray();
+        homeworkArrays.evenArrayRow();
+        homeworkArrays.evenArrayColumn();
+        homeworkArrays.oddArrayRow();
+        homeworkArrays.oddArrayReversRow();
+        homeworkArrays.randomArray09();
+        homeworkArrays.randomArray0999();
+        homeworkArrays.twoDimensionalArray();
         homeworkArrays.twoDimensionalArray1999();
     }
 

@@ -17,7 +17,7 @@ public class StringToDisplayRunner {
                 .replace(",", "") //remove the commas
                 .replace("[", "") //remove the right bracket
                 .replace("]", "") //remove the left bracket
-                .replace(" ", "\n") //remove white spaces
+                .replace(" ", "") //remove white spaces
                 .trim(); //trim empty cells at end
         System.out.println(stringToDisplay);
     }
