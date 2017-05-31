@@ -16,7 +16,7 @@ public class SimpleDotComGame {
         boolean isAlive = true;
 
         while (isAlive == true) {
-            String guess = helper.getuserInput("Введите число");
+            String guess = helper.getUserInput("Введите число");
             String result = theDotCom.checkYourself(guess);
             numOfGuesses++;
             if (result.equals("Потопил")) {
