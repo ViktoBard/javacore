@@ -45,7 +45,7 @@ public class PolindromsRunner {
         try {
             System.out.print("Введи что-нибудь: ");
             String input = inputStream.readLine();
-            System.out.print("Ну эт: ");
+            System.out.print("Думаю это: ");
             System.out.print(ThirdPolidrom.thirdPolidrom(input));
         } catch (IOException exception) {
             System.err.println("Ошибочка");
@@ -53,10 +53,10 @@ public class PolindromsRunner {
     }
 
     public static void fourthPolindrom() {
-//        System.out.println("Введите слово, чтоб проверить, полидром ли это:");
-//        Scanner scanner = new Scanner(System.in);
-//        String word = scanner.nextLine();
-//        FourthPolindrom fourthPolindrom = new FourthPolindrom();
-        FourthPolindrom.fourthPolindrom();
+        System.out.println("Введите слово, чтоб проверить, полидром ли это:");
+        Scanner scanner = new Scanner(System.in);
+        String word = scanner.nextLine();
+        FourthPolindrom fourthPolindrom = new FourthPolindrom();
+        fourthPolindrom.fourthPolindrom(word);
     }
 }
