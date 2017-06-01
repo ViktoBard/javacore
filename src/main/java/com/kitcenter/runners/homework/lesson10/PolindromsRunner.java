@@ -1,6 +1,7 @@
 package com.kitcenter.runners.homework.lesson10;
 
 import com.kitcenter.app.homework.lesson10.FirstPolindrom;
+import com.kitcenter.app.homework.lesson10.FourthPolindrom;
 import com.kitcenter.app.homework.lesson10.SecondPolindrom;
 import com.kitcenter.app.homework.lesson10.ThirdPolidrom;
 
@@ -18,7 +19,8 @@ public class PolindromsRunner {
     public static void main(String[] args) {
 //        firstPolindrom();
 //        secondPolindrom();
-        thirdPolindrom();
+//        thirdPolindrom();
+        fourthPolindrom();
     }
 
     public static void firstPolindrom() {
@@ -40,17 +42,21 @@ public class PolindromsRunner {
     public static void thirdPolindrom() {
         System.out.println("Введите слово, чтоб проверить, полидром ли это:");
         BufferedReader inputStream = new BufferedReader(new InputStreamReader(System.in));
-//        BufferedReader inputStream = new BufferedReader(System.in);
-//        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         try {
-
             System.out.print("Введи что-нибудь: ");
             String input = inputStream.readLine();
             System.out.print("Ну эт: ");
             System.out.print(ThirdPolidrom.thirdPolidrom(input));
-
         } catch (IOException exception) {
             System.err.println("Ошибочка");
         }
+    }
+
+    public static void fourthPolindrom() {
+//        System.out.println("Введите слово, чтоб проверить, полидром ли это:");
+//        Scanner scanner = new Scanner(System.in);
+//        String word = scanner.nextLine();
+//        FourthPolindrom fourthPolindrom = new FourthPolindrom();
+        FourthPolindrom.fourthPolindrom();
     }
 }
