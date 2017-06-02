@@ -1,7 +1,7 @@
 package com.kitcenter.app.classwork.lesson11;
 
 /**
- * Created by Viktor on 31.05.2017.
+ * Created by Viktor on 03.06.2017.
  */
 public class StringEncode {
     public String stringEncode(String word) {
