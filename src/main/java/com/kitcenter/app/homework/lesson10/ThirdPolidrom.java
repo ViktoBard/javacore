@@ -22,5 +22,4 @@ public class ThirdPolidrom {
             return true;
         return false;
     }
-
 }

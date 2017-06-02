@@ -1,4 +1,5 @@
 package com.kitcenter.app.classwork.lesson5;
+
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 
@@ -19,18 +20,9 @@ public class CalculatorTest {
     Initialize test for Calculator functionality
      */
 
-//    @BeforeClass
-//    public static void setBeforeClassSetUp() {
-//            Result result = JUnitCore.runClasses(CalculatorTest.class);
-//            for (Failure failure : result.getFailures()) {
-//                System.out.println("Проблема была прямо ТУТ " + failure.toString());
-//            }
-//       System.out.println(result.wasSuccessful());
-//    }
 
     @Before
-    public void setUp()
- {
+    public void setUp() {
         numberOne = 40;
         numberTwo = 10;
         numberThree = -55;
@@ -43,7 +35,6 @@ public class CalculatorTest {
         flOne = 343.12344f;
         flTwo = 453.5434f;
     }
-
 
 
     @Test(timeout = 200) //interrupt after 200 ms
@@ -152,7 +143,7 @@ public class CalculatorTest {
         System.out.println("Сейчас ты возведёшь в степень " + dblTwo + " число " + dblOne);
         Calculator calculator = new Calculator();
         double actualResult = calculator.mathPow(dblOne, dblTwo);
-        Assert.assertEquals(expResultSqr, actualResult,0.0);
+        Assert.assertEquals(expResultSqr, actualResult, 0.0);
         System.out.println("Результат = " + actualResult);
     }
 
@@ -162,7 +153,7 @@ public class CalculatorTest {
         System.out.println("Сейчас ты возведёшь число " + dblThree + " в степень " + dblFour);
         Calculator calculator = new Calculator();
         double actualResult = calculator.mathPow2(dblThree, dblFour);
-        Assert.assertEquals(expResultSqr, actualResult,0.0);
+        Assert.assertEquals(expResultSqr, actualResult, 0.0);
         System.out.println("Результат = " + actualResult);
     }
 
