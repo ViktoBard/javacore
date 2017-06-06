@@ -7,9 +7,10 @@ public class FourthPolindrom {
     public void fourthPolindrom(String word) {
         StringBuilder builder = new StringBuilder(word);
         builder.reverse();
-        if (word.equals(builder.toString()))
+        if (word.equals(builder.toString())) {
             System.out.println("Palindrome");
-        else
+        } else {
             System.out.println("Not palindrome");
+        }
     }
 }

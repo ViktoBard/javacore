@@ -24,21 +24,3 @@ public class ReaderFileReader {
         bufferedReader.close();
     }
 }
-
-//     try {
-//             BufferedReader reader = new BufferedReader(
-//             new FileReader("C:\\Temp\\Programming\\javacore\\src\\test\\resources\\input.txt"));
-//             String line;
-//             while ((line = reader.readLine()) != null) {
-//             System.out.println(line);
-//             }
-//             reader.close();
-//             } catch (FileNotFoundException e) {
-//             e.printStackTrace();
-//             } catch (IOException e) {
-//             e.printStackTrace();
-//             } finally {
-//             System.out.println("Regardless about exception you will see this text ");
-//
-//             }
-//             }

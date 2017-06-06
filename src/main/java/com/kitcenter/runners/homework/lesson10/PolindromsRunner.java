@@ -17,9 +17,9 @@ import java.util.regex.Pattern;
  */
 public class PolindromsRunner {
     public static void main(String[] args) {
-//        firstPolindrom();
-//        secondPolindrom();
-//        thirdPolindrom();
+        firstPolindrom();
+        secondPolindrom();
+        thirdPolindrom();
         fourthPolindrom();
     }
 
