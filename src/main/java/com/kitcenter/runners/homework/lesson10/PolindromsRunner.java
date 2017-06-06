@@ -9,8 +9,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by user on 31.05.2017.
@@ -45,7 +43,7 @@ public class PolindromsRunner {
         try {
             System.out.print("Введи что-нибудь: ");
             String input = inputStream.readLine();
-            System.out.print("Думаю это: ");
+            System.out.print("");
             System.out.print(ThirdPolidrom.thirdPolidrom(input));
         } catch (IOException exception) {
             System.err.println("Ошибочка");
