@@ -13,7 +13,7 @@ public class ReadFileRunner {
     public static void main(String[] args) throws IOException {
         ReadFile readFile = new ReadFile();
         String word = null;
-        word = readFile.readTheFileFromResources("input.txt");
+        word = readFile.readTheFile("input.txt");
         FirstPolindrom firstPolindrom = new FirstPolindrom();
         boolean result = firstPolindrom.firstPolindrom(word);
         if (result) {

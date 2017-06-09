@@ -10,8 +10,8 @@ public class ConcatRunner {
         String b = "finish";
         StringBuilder stringBuilder = new StringBuilder(c);
         for (long i = 0; i < 100000; i++)
-            c = c.concat(b);
-//        stringBuilder.append(b);
+//            c = c.concat(b);
+        stringBuilder.append(b);
         long end = System.currentTimeMillis();
         System.out.println(end - start);
     }

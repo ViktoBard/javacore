@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Created by user on 06.06.2017.
  */
 public class ArrayParser {
-    public void arrayParser(double[] data, String direction) {
+    public double[] arrayParser(double[] data, String direction) {
         Arrays.sort(data);
         if (direction.equals("<")) {
             System.out.println(Arrays.toString(data));
@@ -19,6 +19,6 @@ public class ArrayParser {
             System.out.println(Arrays.toString(data));
         } else {
             System.out.println("Wrong argument of direction");
-        }
+        }return data;
     }
 }
