@@ -37,10 +37,11 @@ public class ReadAndWriteFileWithSeparatorsRunner {
 //            System.out.println("Incorrect input parameters");
 //            return;
 //        }
-        System.out.println("Please put > for descending or < for ascending");
-        String direction = scanner.nextLine();
-        userData.arrayParser(data, direction);
-        Double
-        System.out.println();
+
+//        System.out.println("Please put > for descending or < for ascending");
+//        String direction = scanner.nextLine();
+//        userData.arrayParser(data, direction);
+//        Double
+//        System.out.println();
     }
 }
