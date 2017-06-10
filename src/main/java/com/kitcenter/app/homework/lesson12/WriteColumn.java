@@ -3,17 +3,17 @@ package com.kitcenter.app.homework.lesson12;
 import java.io.*;
 
 /**
- * Created by user on 09.06.2017.
+ * Created by Viktor on 10.06.2017.
  */
-public class WriteFileWithSeparators {
+public class WriteColumn {
     String targetDir = System.getProperty("user.dir");
 
-    public void writeFile(String word, String relativeToProject) throws IOException {
+    public void writeFile(String word,String polindrom, String relativeToProject) throws IOException {
         String absolutePath = createAbsolutePath(targetDir, relativeToProject);
         BufferedWriter writer = new BufferedWriter(
                 new OutputStreamWriter
                         (new FileOutputStream(absolutePath)));
-        writer.append(word);
+        writer.append(word+polindrom);
         writer.close();
     }
 
