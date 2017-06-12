@@ -8,8 +8,11 @@ import java.util.Scanner;
  * Created by user on 06.06.2017.
  */
 public class SecondArrayParserRunner {
-    public static void main(String[] args) { run();}
-    public static void run(){
+    public static void main(String[] args) {
+        run();
+    }
+
+    public static void run() {
         SecondArrayParser userData = new SecondArrayParser();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please select and enter any separator");
