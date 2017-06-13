@@ -6,7 +6,7 @@ package com.kitcenter.app.classwork.lesson13_encapsulation;
 public class Bicycle {
     public int size;
     public String color;
-    private String name = "AUTHOR-2";
+    private String name;
     private String speed = "23";
 
     public String getSpeed() {

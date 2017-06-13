@@ -2,6 +2,8 @@ package com.kitcenter.runners.classwork.lesson13_encapsulation;
 
 import com.kitcenter.app.classwork.lesson13_encapsulation.Bicycle;
 
+import java.util.Scanner;
+
 /**
  * Created by Viktor on 07.06.2017.
  */
@@ -9,7 +11,6 @@ public class BicycleRunner {
     public static void main(String[] args) {
         Bicycle bicycle = new Bicycle();
         System.out.println(bicycle.color);
-
         String name = "AUTHOR";
         Bicycle bicycle1 = new Bicycle(name);
         System.out.println(bicycle1.getName());
