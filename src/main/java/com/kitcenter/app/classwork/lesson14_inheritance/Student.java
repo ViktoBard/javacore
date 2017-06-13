@@ -21,7 +21,7 @@ public class Student extends Person { //class name
     }
 
 
-    public void showClassName(){
+    public void showClassName() {
         System.out.println("Student class");
     }
 
