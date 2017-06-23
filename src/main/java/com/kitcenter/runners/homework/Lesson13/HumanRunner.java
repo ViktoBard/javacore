@@ -1,6 +1,7 @@
 package com.kitcenter.runners.homework.Lesson13;
 
 import com.kitcenter.app.homework.lesson13.Human;
+import com.kitcenter.app.homework.lesson13.HumanMenu;
 import com.kitcenter.app.homework.lesson13.WhiteCollar;
 
 import java.util.Scanner;
@@ -14,12 +15,10 @@ public class HumanRunner {
     }
 
     public static void runner() {
-        System.out.println("Выбери:");
-        System.out.println("1. Установить имя и возраст");
-        System.out.println("2. Установить имя и возраст и компанию");
-        System.out.println("3. Узнать возраст");
-        System.out.println("4. Узнать имя");
-        System.out.println("0. Выход");
+        System.out.println("Выбери: ");
+        for (HumanMenu humanMenu : HumanMenu.values()) {
+            System.out.println(humanMenu.getPosition());
+        }
         Scanner scanner = new Scanner(System.in);
         String choose = scanner.nextLine();
         switch (choose) {
@@ -57,7 +56,7 @@ public class HumanRunner {
         human.setName(name);
         human.setAge(age);
 
-        System.out.println(human.getName() + human.getAge());
+        System.out.println("Имя: "+ human.getName() +" Возраст: "+ human.getAge());
     }
 
     public static void setAndShowAgeAndNameAndCompany() {

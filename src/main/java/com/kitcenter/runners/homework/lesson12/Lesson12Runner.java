@@ -1,9 +1,6 @@
 package com.kitcenter.runners.homework.lesson12;
 
-import com.kitcenter.app.homework.lesson12.ReadFileWithSeparators;
-import com.kitcenter.runners.homework.lesson11.ArrayParserRunner;
-import com.kitcenter.runners.homework.lesson11.KeyWordRunner;
-import com.kitcenter.runners.homework.lesson11.SecondArrayParserRunner;
+import com.kitcenter.app.homework.lesson12.Lesson12Menu;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -14,8 +11,9 @@ import java.util.Scanner;
 public class Lesson12Runner {
     public static void main(String[] args) {
         System.out.println("В этом уроке вы можете выбрать:");
-        System.out.println("1. Чтение из файла строк с массивами чисел");
-        System.out.println("2. Считывание из файла список слов в стобик");
+        for (Lesson12Menu lesson12Menu : Lesson12Menu.values()) {
+            System.out.println(lesson12Menu.getPosition());
+        }
         Scanner scanner = new Scanner(System.in);
         String choose = scanner.nextLine();
 
@@ -33,6 +31,8 @@ public class Lesson12Runner {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                break;
+            case "0":
                 break;
         }
     }

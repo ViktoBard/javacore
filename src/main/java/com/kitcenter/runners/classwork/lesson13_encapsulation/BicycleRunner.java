@@ -18,19 +18,18 @@ public class BicycleRunner {
         bicycle1.printMe();
         System.out.println(bicycle1.getSpeed());
         bicycle1.setSpeed("78");
-        System.out.println("Speed of bicycle: "+ bicycle1.getSpeed());
+        System.out.println("Speed of bicycle: " + bicycle1.getSpeed());
 
-//        String color = "Red";
-//        Bicycle bicycle2 = new Bicycle(name, color);
-//        System.out.println(bicycle2.getName() + " " + bicycle2.color);
-//
-//        int size = 23;
-//        Bicycle bicycle3 = new Bicycle(size, name);
-//        System.out.println(bicycle3.getName() + " " + bicycle3.size);
-//
-//
-//        Bicycle bicycle4 = new Bicycle(size, color,name);
-//        System.out.println(bicycle4.getName() + " " + bicycle4.size);
+        String color = "Red";
+        Bicycle bicycle2 = new Bicycle(name, color);
+        System.out.println(bicycle2.getName() + " " + bicycle2.color);
+
+        int size = 23;
+        Bicycle bicycle3 = new Bicycle(size, name);
+        System.out.println(bicycle3.getName() + " " + bicycle3.size);
+
+        Bicycle bicycle4 = new Bicycle(size, color, name);
+        System.out.println(bicycle4.getName() + " " + bicycle4.size);
 
     }
 }

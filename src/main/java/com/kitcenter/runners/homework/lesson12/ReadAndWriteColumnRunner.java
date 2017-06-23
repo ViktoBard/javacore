@@ -23,9 +23,6 @@ public class ReadAndWriteColumnRunner {
         System.out.println(wordOne);
         String wordTwo = wordOne.replace("\n", "").replace("\r", "");
 
-//        ArrayList aList= new ArrayList(Arrays.asList(wordTwo.split(",")));
-//        for(int i=0;i<aList.size();i++);
-
         FirstPolindrom firstPolindrom = new FirstPolindrom();
         boolean result = firstPolindrom.firstPolindrom(wordTwo);
         if (result) {
