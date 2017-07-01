@@ -1,7 +1,6 @@
 package com.kitcenter.runners.homework.lesson15;
 
 import com.kitcenter.app.homework.lesson15.Bicycle15WithRing;
-import com.kitcenter.app.homework.lesson15.Bicycle15WithRingInterface;
 import com.kitcenter.app.homework.lesson15.CustomBicycle15;
 
 /**
